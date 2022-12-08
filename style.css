@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav{
+    padding: 2rem;
+    background-color: rgb(142, 30, 247);
+    font-size: 90%;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+
+}
+
+li{
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    color: blue;
+    
+
+}
+
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-class{
+    margin-top: 1rem;
+    width: 100%;
+   
+    color: black;
+    font-size: 1rem;
+
+}
+
+div a{
+    text-decoration: none;
+    display: block;
+}
+
+div a:hover{
+    color: blue;
+}
+
+div a:first-child:visited{
+    color: purple;
+}
+
+
+
+@media (min-width: 850px){
+    nav{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    nav ul li:first-child{
+        flex-basis:  auto;
+        margin-right: auto;
+        text-align: left;
+    }
+
+}
+
+
+
+
+
+
